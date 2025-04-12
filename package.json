@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "blogwebsite": "nodemon server.js"
+    "start": "node server.js",
+    "blogwebsite": "node server.js",
+    "dev": "nodemon server.js"
   },
   "author": "",
   "license": "ISC",
