@@ -15,7 +15,7 @@ main()
   console.log(err);
 })
 async function main(){
-  await mongoose.connect("mongodb://localhost:27017/blogwebsite")
+  await mongoose.connect("mongodb+srv://honey9122836929:sawXOZIWjnWgikkQ@cluster0.xdie2xl.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 }
 
 // App configuration
@@ -36,3 +36,4 @@ app.use('/articles', articleRouter)
 app.listen(3000, () => {
   console.log('Server is running on port 3000')
 })
+
